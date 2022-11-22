@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: orange;
+    height: 100vh;
+    color: white;
+}
+
+p {
+    font-size: 80px;
+}

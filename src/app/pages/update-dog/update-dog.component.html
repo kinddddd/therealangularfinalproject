@@ -1,0 +1,25 @@
+<div class="container">
+    <form *ngIf="dogForm" [formGroup]="dogForm" (ngSubmit)="onSubmit()">
+        <div class="items">
+            <span>Breed</span>
+            <input type="text" formControlName="breed">
+        </div>
+        <div class="items">
+            <span>Description</span>
+            <input type="text" formControlName="description" class="normalBox">
+        </div>
+        <div class="items">
+            <span>Average lifespan</span>
+            <input type="text" formControlName="life" class="normalBox">
+        </div>
+        <div class="items">
+            Average size and weight
+            <input type="text" formControlName="size" class="normalBox">
+        </div>
+        <div class="items">
+            <span>Image</span>
+            <input type="text" formControlName="img">
+        </div>
+        <button>Editar</button>
+    </form>
+</div>

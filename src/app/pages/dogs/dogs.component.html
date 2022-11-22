@@ -1,0 +1,7 @@
+<div class="dogContainer">
+    <div *ngFor="let dog of myDogs" class="card">
+        <h1 class="title">{{dog.breed}}</h1>
+        <img src="{{dog.img}}" alt="{{dog.breed}}"/>
+        <button routerLink="/dogs/{{dog._id}}">Read more</button>
+    </div>
+</div>
